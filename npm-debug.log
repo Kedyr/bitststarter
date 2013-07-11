@@ -1,0 +1,425 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', 'nvm' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'nvm', null ]
+6 verbose cache add name=undefined spec="nvm" args=["nvm",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'nvm',
+7 verbose parsed url   path: 'nvm',
+7 verbose parsed url   href: 'nvm' }
+8 silly lockFile ed8ccd57-nvm nvm
+9 verbose lock nvm /home/kedyr/.npm/ed8ccd57-nvm.lock
+10 silly lockFile ed8ccd57-nvm nvm
+11 silly lockFile ed8ccd57-nvm nvm
+12 verbose addNamed [ 'nvm', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 994bb1db-nvm nvm@
+15 verbose lock nvm@ /home/kedyr/.npm/994bb1db-nvm.lock
+16 silly addNameRange { name: 'nvm', range: '*', hasData: false }
+17 verbose url raw nvm
+18 verbose url resolving [ 'https://registry.npmjs.org/', './nvm' ]
+19 verbose url resolved https://registry.npmjs.org/nvm
+20 info trying registry request attempt 1 at 18:19:00
+21 http GET https://registry.npmjs.org/nvm
+22 http 200 https://registry.npmjs.org/nvm
+23 silly registry.get cb [ 200,
+23 silly registry.get   { vary: 'Accept',
+23 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+23 silly registry.get     etag: '"2XNV10G1YF77BLLI5TH7N3C2L"',
+23 silly registry.get     date: 'Wed, 10 Jul 2013 15:19:06 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '14077' } ]
+24 silly addNameRange number 2 { name: 'nvm', range: '*', hasData: true }
+25 silly addNameRange versions [ 'nvm', [ '0.0.0', '0.0.1' ] ]
+26 verbose addNamed [ 'nvm', '0.0.1' ]
+27 verbose addNamed [ '0.0.1', '0.0.1' ]
+28 silly lockFile cf70ec4a-nvm-0-0-1 nvm@0.0.1
+29 verbose lock nvm@0.0.1 /home/kedyr/.npm/cf70ec4a-nvm-0-0-1.lock
+30 silly lockFile b8eca6f5-stry-npmjs-org-nvm-nvm-0-0-1-tgz https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz
+31 verbose lock https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz /home/kedyr/.npm/b8eca6f5-stry-npmjs-org-nvm-nvm-0-0-1-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz',
+32 verbose addRemoteTarball   '98d00cac036462f1c086cb900fef05c1eda9e34e' ]
+33 info retry fetch attempt 1 at 18:19:03
+34 verbose fetch to= /home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/tmp.tgz
+35 http GET https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz
+36 http 200 https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz
+37 verbose tar unpack /home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/tmp.tgz
+38 silly lockFile 1ba3209d-43423-0-8607926613185555-package tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package
+39 verbose lock tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package /home/kedyr/.npm/1ba3209d-43423-0-8607926613185555-package.lock
+40 silly lockFile a0304f92-43423-0-8607926613185555-tmp-tgz tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/tmp.tgz
+41 verbose lock tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/tmp.tgz /home/kedyr/.npm/a0304f92-43423-0-8607926613185555-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry bin/nvm
+47 silly gunzTarPerm extractEntry bin/nvm-build
+48 silly gunzTarPerm extractEntry bin/nvm-download
+49 silly gunzTarPerm extractEntry bin/nvm-install
+50 silly gunzTarPerm extractEntry bin/nvm-link
+51 silly gunzTarPerm extractEntry bin/nvm-unlink
+52 silly lockFile 1ba3209d-43423-0-8607926613185555-package tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package
+53 silly lockFile 1ba3209d-43423-0-8607926613185555-package tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package
+54 silly lockFile a0304f92-43423-0-8607926613185555-tmp-tgz tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/tmp.tgz
+55 silly lockFile a0304f92-43423-0-8607926613185555-tmp-tgz tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/tmp.tgz
+56 verbose tar pack [ '/home/kedyr/.npm/nvm/0.0.1/package.tgz',
+56 verbose tar pack   '/home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package' ]
+57 verbose tarball /home/kedyr/.npm/nvm/0.0.1/package.tgz
+58 verbose folder /home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package
+59 silly lockFile 1ba3209d-43423-0-8607926613185555-package tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package
+60 verbose lock tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package /home/kedyr/.npm/1ba3209d-43423-0-8607926613185555-package.lock
+61 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+62 verbose lock tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz /home/kedyr/.npm/9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz.lock
+63 silly lockFile 1ba3209d-43423-0-8607926613185555-package tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package
+64 silly lockFile 1ba3209d-43423-0-8607926613185555-package tar:///home/kedyr/tmp/npm-3461/1373469543423-0.8607926613185555/package
+65 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+66 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+67 silly lockFile 9b4e0ea8-home-kedyr-npm-nvm-0-0-1-package /home/kedyr/.npm/nvm/0.0.1/package
+68 verbose lock /home/kedyr/.npm/nvm/0.0.1/package /home/kedyr/.npm/9b4e0ea8-home-kedyr-npm-nvm-0-0-1-package.lock
+69 silly lockFile 9b4e0ea8-home-kedyr-npm-nvm-0-0-1-package /home/kedyr/.npm/nvm/0.0.1/package
+70 silly lockFile 9b4e0ea8-home-kedyr-npm-nvm-0-0-1-package /home/kedyr/.npm/nvm/0.0.1/package
+71 verbose tar unpack /home/kedyr/.npm/nvm/0.0.1/package.tgz
+72 silly lockFile e636e48c-home-kedyr-npm-nvm-0-0-1-package tar:///home/kedyr/.npm/nvm/0.0.1/package
+73 verbose lock tar:///home/kedyr/.npm/nvm/0.0.1/package /home/kedyr/.npm/e636e48c-home-kedyr-npm-nvm-0-0-1-package.lock
+74 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+75 verbose lock tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz /home/kedyr/.npm/9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry .npmignore
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm extractEntry bin/nvm
+81 silly gunzTarPerm extractEntry bin/nvm-build
+82 silly gunzTarPerm extractEntry bin/nvm-download
+83 silly gunzTarPerm extractEntry bin/nvm-install
+84 silly gunzTarPerm extractEntry bin/nvm-link
+85 silly gunzTarPerm extractEntry bin/nvm-unlink
+86 silly lockFile e636e48c-home-kedyr-npm-nvm-0-0-1-package tar:///home/kedyr/.npm/nvm/0.0.1/package
+87 silly lockFile e636e48c-home-kedyr-npm-nvm-0-0-1-package tar:///home/kedyr/.npm/nvm/0.0.1/package
+88 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+89 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+90 verbose chmod /home/kedyr/.npm/nvm/0.0.1/package.tgz 644
+91 verbose chown /home/kedyr/.npm/nvm/0.0.1/package.tgz [ 1000, 100 ]
+92 silly lockFile b8eca6f5-stry-npmjs-org-nvm-nvm-0-0-1-tgz https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz
+93 silly lockFile b8eca6f5-stry-npmjs-org-nvm-nvm-0-0-1-tgz https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz
+94 silly lockFile cf70ec4a-nvm-0-0-1 nvm@0.0.1
+95 silly lockFile cf70ec4a-nvm-0-0-1 nvm@0.0.1
+96 silly lockFile 994bb1db-nvm nvm@
+97 silly lockFile 994bb1db-nvm nvm@
+98 silly resolved [ { name: 'nvm',
+98 silly resolved     version: '0.0.1',
+98 silly resolved     description: 'Install and managing different versions of node and installing local versions into repos.',
+98 silly resolved     dependencies: { mkdirp: '~0.3.3' },
+98 silly resolved     devDependencies: {},
+98 silly resolved     bin: { nvm: './bin/nvm' },
+98 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+98 silly resolved     repository: { type: 'git', url: 'git://github.com/brianloveswords/nvm.git' },
+98 silly resolved     keywords: [ 'local', 'node' ],
+98 silly resolved     author: { name: 'Brian J. Brennan', url: '@brianloveswords' },
+98 silly resolved     license: 'http://wtfpl.org/',
+98 silly resolved     readme: '# nvm\n\nInstall and managing different versions of node and installing local versions into repos.\n\n## WTF\n\nI wrote this to make my life easier A) when new minor versions of node\ncome out and B) so I can more easily manage testing between 0.6.x (which\nI\'m still stuck on in one of my servers) and 0.8.x.\n\n## Install\n\n```bash\n$ npm install -g nvm\n```\n\n## Usage\nYou should update your path to include ./node_modules/.bin\n\n```bash\nexport PATH=./node_modules/.bin:$PATH\n```\n\n```bash\n$ nvm download 0.8.1\nDownloading and unpacking node v0.8.1\nx node-v0.8.1/\nx node-v0.8.1/.gitattributes\nx node-v0.8.1/.gitignore\nx node-v0.8.1/.travis.yml\n[...]\nx node-v0.8.1/benchmark/arrays/var_int.js\nx node-v0.8.1/benchmark/arrays/zero_float.js\nx node-v0.8.1/benchmark/arrays/zero_int.js\nDone.\n\n$ nvm build 0.8.1\nConfiguring... { \'target_defaults\': { \'cflags\': [],\n                       \'default_configuration\': \'Release\',\n                       \'defines\': [],\n                       \'include_dirs\': [],\n                       \'libraries\': []},\n[...]\nBuilding... make -C out BUILDTYPE=Release\n  CC(target) /Users/brian/.nvm/node-v0.8.1/out/Release/obj.target/http_parser/deps/http_parser/http_parser.o\n  LIBTOOL-STATIC /Users/brian/.nvm/node-v0.8.1/out/Release/libhttp_parser.a\n  CC(target) /Users/brian/.nvm/node-v0.8.1/out/Release/obj.target/openssl/deps/openssl/openssl/ssl/bio_ssl.o\n[...]  \nDone.\n\n\n$ nvm link 0.8.2\nsymlinking node-v0.8.2\ndone. do `node --version` to confirm\n\n\n$ nvm unlink\nUnlinking /Users/brian/dev/nvm/node_modules/.bin/node\nDone\n\n$ nvm install 0.8.2\nBuilding... make -C out BUILDTYPE=Release\nmake[1]: Nothing to be done for `all\'.\nln -fs out/Release/node node\nout/Release/node tools/installer.js install \nmkdir -p /usr/local/include/node/\ncp -rf src/node.h /usr/local/include/node/\ncp -rf src/node_buffer.h /usr/local/include/node/\ncp -rf src/node_object_wrap.h /usr/local/include/node/\ncp -rf src/node_version.h /usr/local/include/node/\ncp -rf src/ev-emul.h /usr/local/include/node/\ncp -rf src/eio-emul.h /usr/local/include/node/\ncp -rf deps/v8/include/v8-debug.h /usr/local/include/node/\ncp -rf deps/v8/include/v8-preparser.h /usr/local/include/node/\ncp -rf deps/v8/include/v8-profiler.h /usr/local/include/node/\ncp -rf deps/v8/include/v8-testing.h /usr/local/include/node/\ncp -rf deps/v8/include/v8.h /usr/local/include/node/\ncp -rf deps/v8/include/v8stdint.h /usr/local/include/node/\ncp -rf deps/uv/include/uv.h /usr/local/include/node/\nmkdir -p /usr/local/share/man/man1/\ncp -rf doc/node.1 /usr/local/share/man/man1/\nmkdir -p /usr/local/lib/dtrace/\ncp -rf src/node.d /usr/local/lib/dtrace/\nmkdir -p /usr/local/include/node/uv-private/\ncp -rf deps/uv/include/uv-private/eio.h /usr/local/include/node/uv-private/\ncp -rf deps/uv/include/uv-private/ev.h /usr/local/include/node/uv-private/\ncp -rf deps/uv/include/uv-private/ngx-queue.h /usr/local/include/node/uv-private/\ncp -rf deps/uv/include/uv-private/tree.h /usr/local/include/node/uv-private/\ncp -rf deps/uv/include/uv-private/uv-unix.h /usr/local/include/node/uv-private/\ncp -rf deps/uv/include/uv-private/uv-win.h /usr/local/include/node/uv-private/\ncp -rf deps/uv/include/ares.h /usr/local/include/node/\ncp -rf deps/uv/include/ares_version.h /usr/local/include/node/\nmkdir -p /usr/local/bin/\ncp -rf out/Release/node /usr/local/bin/node\nmkdir -p /usr/local/lib/node/\ncp -rf tools/wafadmin /usr/local/lib/node/\ncp -rf tools/node-waf /usr/local/bin/node-waf\nmkdir -p /usr/local/lib/node_modules/\ncp -rf deps/npm /usr/local/lib/node_modules/npm\nln -sf ../lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm\nshebang #!/usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js\n\nDone [0]\n\n$ nvm link 0.6.20\nremoving old symlink\nsymlinking node-v0.6.20\ndone. do `node --version` to confirm\n```\n\n## License\n\n[http://wtfpl.org/](http://wtfpl.org/)\n',
+98 silly resolved     readmeFilename: 'README.md',
+98 silly resolved     bugs: { url: 'https://github.com/brianloveswords/nvm/issues' },
+98 silly resolved     _id: 'nvm@0.0.1',
+98 silly resolved     dist: { shasum: '49bee9696a04d1b419f764c6ded82ebcfe13f023' },
+98 silly resolved     _from: 'nvm@',
+98 silly resolved     _resolved: 'https://registry.npmjs.org/nvm/-/nvm-0.0.1.tgz' } ]
+99 info install nvm@0.0.1 into /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter
+100 info installOne nvm@0.0.1
+101 info /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm unbuild
+102 verbose tar unpack /home/kedyr/.npm/nvm/0.0.1/package.tgz
+103 silly lockFile cc3b3208-rk-bitststarter-node-modules-nvm tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm
+104 verbose lock tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm /home/kedyr/.npm/cc3b3208-rk-bitststarter-node-modules-nvm.lock
+105 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+106 verbose lock tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz /home/kedyr/.npm/9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz.lock
+107 silly gunzTarPerm modes [ '755', '644' ]
+108 silly gunzTarPerm extractEntry package.json
+109 silly gunzTarPerm extractEntry .npmignore
+110 silly gunzTarPerm extractEntry README.md
+111 silly gunzTarPerm extractEntry bin/nvm
+112 silly gunzTarPerm extractEntry bin/nvm-build
+113 silly gunzTarPerm extractEntry bin/nvm-download
+114 silly gunzTarPerm extractEntry bin/nvm-install
+115 silly gunzTarPerm extractEntry bin/nvm-link
+116 silly gunzTarPerm extractEntry bin/nvm-unlink
+117 silly lockFile cc3b3208-rk-bitststarter-node-modules-nvm tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm
+118 silly lockFile cc3b3208-rk-bitststarter-node-modules-nvm tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm
+119 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+120 silly lockFile 9e26acc7--kedyr-npm-nvm-0-0-1-package-tgz tar:///home/kedyr/.npm/nvm/0.0.1/package.tgz
+121 info preinstall nvm@0.0.1
+122 verbose readDependencies using package.json deps
+123 verbose readDependencies using package.json deps
+124 verbose cache add [ 'mkdirp@~0.3.3', null ]
+125 verbose cache add name=undefined spec="mkdirp@~0.3.3" args=["mkdirp@~0.3.3",null]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: 'mkdirp@~0.3.3',
+126 verbose parsed url   path: 'mkdirp@~0.3.3',
+126 verbose parsed url   href: 'mkdirp@~0.3.3' }
+127 verbose cache add name="mkdirp" spec="~0.3.3" args=["mkdirp","~0.3.3"]
+128 verbose parsed url { protocol: null,
+128 verbose parsed url   slashes: null,
+128 verbose parsed url   auth: null,
+128 verbose parsed url   host: null,
+128 verbose parsed url   port: null,
+128 verbose parsed url   hostname: null,
+128 verbose parsed url   hash: null,
+128 verbose parsed url   search: null,
+128 verbose parsed url   query: null,
+128 verbose parsed url   pathname: '~0.3.3',
+128 verbose parsed url   path: '~0.3.3',
+128 verbose parsed url   href: '~0.3.3' }
+129 verbose addNamed [ 'mkdirp', '~0.3.3' ]
+130 verbose addNamed [ null, '>=0.3.3-0 <0.4.0-0' ]
+131 silly lockFile 284959b2-mkdirp-0-3-3 mkdirp@~0.3.3
+132 verbose lock mkdirp@~0.3.3 /home/kedyr/.npm/284959b2-mkdirp-0-3-3.lock
+133 silly addNameRange { name: 'mkdirp', range: '>=0.3.3-0 <0.4.0-0', hasData: false }
+134 verbose url raw mkdirp
+135 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+136 verbose url resolved https://registry.npmjs.org/mkdirp
+137 info trying registry request attempt 1 at 18:19:08
+138 http GET https://registry.npmjs.org/mkdirp
+139 http 200 https://registry.npmjs.org/mkdirp
+140 silly registry.get cb [ 200,
+140 silly registry.get   { vary: 'Accept',
+140 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+140 silly registry.get     etag: '"16QWMI09M2JDFR73XKK4ODOMD"',
+140 silly registry.get     date: 'Wed, 10 Jul 2013 15:19:13 GMT',
+140 silly registry.get     'content-type': 'application/json',
+140 silly registry.get     'content-length': '17936' } ]
+141 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.3-0 <0.4.0-0', hasData: true }
+142 silly addNameRange versions [ 'mkdirp',
+142 silly addNameRange   [ '0.0.1',
+142 silly addNameRange     '0.0.2',
+142 silly addNameRange     '0.0.3',
+142 silly addNameRange     '0.0.4',
+142 silly addNameRange     '0.0.5',
+142 silly addNameRange     '0.0.6',
+142 silly addNameRange     '0.0.7',
+142 silly addNameRange     '0.1.0',
+142 silly addNameRange     '0.2.0',
+142 silly addNameRange     '0.2.1',
+142 silly addNameRange     '0.2.2',
+142 silly addNameRange     '0.3.0',
+142 silly addNameRange     '0.3.1',
+142 silly addNameRange     '0.3.2',
+142 silly addNameRange     '0.3.3',
+142 silly addNameRange     '0.3.4',
+142 silly addNameRange     '0.3.5' ] ]
+143 verbose addNamed [ 'mkdirp', '0.3.5' ]
+144 verbose addNamed [ '0.3.5', '0.3.5' ]
+145 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+146 verbose lock mkdirp@0.3.5 /home/kedyr/.npm/67d2df2a-mkdirp-0-3-5.lock
+147 silly lockFile 7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+148 verbose lock https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz /home/kedyr/.npm/7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz.lock
+149 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+149 verbose addRemoteTarball   'de3e5f8961c88c787ee1368df849ac4413eca8d7' ]
+150 info retry fetch attempt 1 at 18:19:11
+151 verbose fetch to= /home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/tmp.tgz
+152 http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+153 http 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+154 verbose tar unpack /home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/tmp.tgz
+155 silly lockFile e8603263-1001-0-11938870325684547-package tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package
+156 verbose lock tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package /home/kedyr/.npm/e8603263-1001-0-11938870325684547-package.lock
+157 silly lockFile 117f6ea6-1001-0-11938870325684547-tmp-tgz tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/tmp.tgz
+158 verbose lock tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/tmp.tgz /home/kedyr/.npm/117f6ea6-1001-0-11938870325684547-tmp-tgz.lock
+159 silly gunzTarPerm modes [ '755', '644' ]
+160 silly gunzTarPerm extractEntry package.json
+161 silly gunzTarPerm extractEntry .npmignore
+162 silly gunzTarPerm extractEntry LICENSE
+163 silly gunzTarPerm extractEntry index.js
+164 silly gunzTarPerm extractEntry examples/pow.js
+165 silly gunzTarPerm extractEntry readme.markdown
+166 silly gunzTarPerm extractEntry test/perm.js
+167 silly gunzTarPerm extractEntry test/perm_sync.js
+168 silly gunzTarPerm extractEntry test/race.js
+169 silly gunzTarPerm extractEntry test/rel.js
+170 silly gunzTarPerm extractEntry test/return.js
+171 silly gunzTarPerm extractEntry test/clobber.js
+172 silly gunzTarPerm extractEntry test/root.js
+173 silly gunzTarPerm extractEntry test/umask.js
+174 silly gunzTarPerm extractEntry test/sync.js
+175 silly gunzTarPerm extractEntry test/chmod.js
+176 silly gunzTarPerm extractEntry test/umask_sync.js
+177 silly gunzTarPerm extractEntry test/return_sync.js
+178 silly gunzTarPerm extractEntry test/mkdirp.js
+179 silly gunzTarPerm extractEntry .travis.yml
+180 silly lockFile e8603263-1001-0-11938870325684547-package tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package
+181 silly lockFile e8603263-1001-0-11938870325684547-package tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package
+182 silly lockFile 117f6ea6-1001-0-11938870325684547-tmp-tgz tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/tmp.tgz
+183 silly lockFile 117f6ea6-1001-0-11938870325684547-tmp-tgz tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/tmp.tgz
+184 verbose tar pack [ '/home/kedyr/.npm/mkdirp/0.3.5/package.tgz',
+184 verbose tar pack   '/home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package' ]
+185 verbose tarball /home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+186 verbose folder /home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package
+187 silly lockFile e8603263-1001-0-11938870325684547-package tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package
+188 verbose lock tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package /home/kedyr/.npm/e8603263-1001-0-11938870325684547-package.lock
+189 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+190 verbose lock tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz /home/kedyr/.npm/ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz.lock
+191 silly lockFile e8603263-1001-0-11938870325684547-package tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package
+192 silly lockFile e8603263-1001-0-11938870325684547-package tar:///home/kedyr/tmp/npm-3461/1373469551001-0.11938870325684547/package
+193 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+194 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+195 silly lockFile ede39675-e-kedyr-npm-mkdirp-0-3-5-package /home/kedyr/.npm/mkdirp/0.3.5/package
+196 verbose lock /home/kedyr/.npm/mkdirp/0.3.5/package /home/kedyr/.npm/ede39675-e-kedyr-npm-mkdirp-0-3-5-package.lock
+197 silly lockFile ede39675-e-kedyr-npm-mkdirp-0-3-5-package /home/kedyr/.npm/mkdirp/0.3.5/package
+198 silly lockFile ede39675-e-kedyr-npm-mkdirp-0-3-5-package /home/kedyr/.npm/mkdirp/0.3.5/package
+199 verbose tar unpack /home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+200 silly lockFile 6aa85346-e-kedyr-npm-mkdirp-0-3-5-package tar:///home/kedyr/.npm/mkdirp/0.3.5/package
+201 verbose lock tar:///home/kedyr/.npm/mkdirp/0.3.5/package /home/kedyr/.npm/6aa85346-e-kedyr-npm-mkdirp-0-3-5-package.lock
+202 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+203 verbose lock tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz /home/kedyr/.npm/ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz.lock
+204 silly gunzTarPerm modes [ '755', '644' ]
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm extractEntry .npmignore
+207 silly gunzTarPerm extractEntry LICENSE
+208 silly gunzTarPerm extractEntry index.js
+209 silly gunzTarPerm extractEntry .travis.yml
+210 silly gunzTarPerm extractEntry examples/pow.js
+211 silly gunzTarPerm extractEntry readme.markdown
+212 silly gunzTarPerm extractEntry test/chmod.js
+213 silly gunzTarPerm extractEntry test/perm.js
+214 silly gunzTarPerm extractEntry test/perm_sync.js
+215 silly gunzTarPerm extractEntry test/race.js
+216 silly gunzTarPerm extractEntry test/mkdirp.js
+217 silly gunzTarPerm extractEntry test/return.js
+218 silly gunzTarPerm extractEntry test/return_sync.js
+219 silly gunzTarPerm extractEntry test/root.js
+220 silly gunzTarPerm extractEntry test/sync.js
+221 silly gunzTarPerm extractEntry test/umask.js
+222 silly gunzTarPerm extractEntry test/clobber.js
+223 silly gunzTarPerm extractEntry test/umask_sync.js
+224 silly gunzTarPerm extractEntry test/rel.js
+225 silly lockFile 6aa85346-e-kedyr-npm-mkdirp-0-3-5-package tar:///home/kedyr/.npm/mkdirp/0.3.5/package
+226 silly lockFile 6aa85346-e-kedyr-npm-mkdirp-0-3-5-package tar:///home/kedyr/.npm/mkdirp/0.3.5/package
+227 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+228 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+229 verbose chmod /home/kedyr/.npm/mkdirp/0.3.5/package.tgz 644
+230 verbose chown /home/kedyr/.npm/mkdirp/0.3.5/package.tgz [ 1000, 100 ]
+231 silly lockFile 7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+232 silly lockFile 7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+233 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+234 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+235 silly lockFile 284959b2-mkdirp-0-3-3 mkdirp@~0.3.3
+236 silly lockFile 284959b2-mkdirp-0-3-3 mkdirp@~0.3.3
+237 silly resolved [ { name: 'mkdirp',
+237 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+237 silly resolved     version: '0.3.5',
+237 silly resolved     author:
+237 silly resolved      { name: 'James Halliday',
+237 silly resolved        email: 'mail@substack.net',
+237 silly resolved        url: 'http://substack.net' },
+237 silly resolved     main: './index',
+237 silly resolved     keywords: [ 'mkdir', 'directory' ],
+237 silly resolved     repository:
+237 silly resolved      { type: 'git',
+237 silly resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+237 silly resolved     scripts: { test: 'tap test/*.js' },
+237 silly resolved     devDependencies: { tap: '~0.4.0' },
+237 silly resolved     license: 'MIT',
+237 silly resolved     readme: '# mkdirp\n\nLike `mkdir -p`, but in node.js!\n\n[![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)\n\n# example\n\n## pow.js\n\n```js\nvar mkdirp = require(\'mkdirp\');\n    \nmkdirp(\'/tmp/foo/bar/baz\', function (err) {\n    if (err) console.error(err)\n    else console.log(\'pow!\')\n});\n```\n\nOutput\n\n```\npow!\n```\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\n# methods\n\n```js\nvar mkdirp = require(\'mkdirp\');\n```\n\n## mkdirp(dir, mode, cb)\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\n`cb(err, made)` fires with the error or the first directory `made`\nthat had to be created, if any.\n\n## mkdirp.sync(dir, mode)\n\nSynchronously create a new directory and any necessary subdirectories at `dir`\nwith octal permission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\nReturns the first directory that had to be created, if any.\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install mkdirp\n```\n\n# license\n\nMIT\n',
+237 silly resolved     readmeFilename: 'readme.markdown',
+237 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+237 silly resolved     _id: 'mkdirp@0.3.5',
+237 silly resolved     dist: { shasum: '13f25811b14ab72a2b51e9a3e4fbc74d82ecdab8' },
+237 silly resolved     _from: 'mkdirp@~0.3.3',
+237 silly resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' } ]
+238 info install mkdirp@0.3.5 into /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm
+239 info installOne mkdirp@0.3.5
+240 info /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules/mkdirp unbuild
+241 verbose tar unpack /home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+242 silly lockFile e4e96937--modules-nvm-node-modules-mkdirp tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules/mkdirp
+243 verbose lock tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules/mkdirp /home/kedyr/.npm/e4e96937--modules-nvm-node-modules-mkdirp.lock
+244 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+245 verbose lock tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz /home/kedyr/.npm/ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz.lock
+246 silly gunzTarPerm modes [ '755', '644' ]
+247 silly gunzTarPerm extractEntry package.json
+248 silly gunzTarPerm extractEntry .npmignore
+249 silly gunzTarPerm extractEntry LICENSE
+250 silly gunzTarPerm extractEntry index.js
+251 silly gunzTarPerm extractEntry .travis.yml
+252 silly gunzTarPerm extractEntry examples/pow.js
+253 silly gunzTarPerm extractEntry readme.markdown
+254 silly gunzTarPerm extractEntry test/chmod.js
+255 silly gunzTarPerm extractEntry test/perm.js
+256 silly gunzTarPerm extractEntry test/perm_sync.js
+257 silly gunzTarPerm extractEntry test/race.js
+258 silly gunzTarPerm extractEntry test/mkdirp.js
+259 silly gunzTarPerm extractEntry test/return.js
+260 silly gunzTarPerm extractEntry test/return_sync.js
+261 silly gunzTarPerm extractEntry test/root.js
+262 silly gunzTarPerm extractEntry test/sync.js
+263 silly gunzTarPerm extractEntry test/umask.js
+264 silly gunzTarPerm extractEntry test/clobber.js
+265 silly gunzTarPerm extractEntry test/umask_sync.js
+266 silly gunzTarPerm extractEntry test/rel.js
+267 silly lockFile e4e96937--modules-nvm-node-modules-mkdirp tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules/mkdirp
+268 silly lockFile e4e96937--modules-nvm-node-modules-mkdirp tar:///home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules/mkdirp
+269 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+270 silly lockFile ec31686e-dyr-npm-mkdirp-0-3-5-package-tgz tar:///home/kedyr/.npm/mkdirp/0.3.5/package.tgz
+271 info preinstall mkdirp@0.3.5
+272 verbose readDependencies using package.json deps
+273 verbose readDependencies using package.json deps
+274 silly resolved []
+275 verbose about to build /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules/mkdirp
+276 info build /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules/mkdirp
+277 verbose linkStuff [ false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   false,
+277 verbose linkStuff   '/home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm/node_modules' ]
+278 info linkStuff mkdirp@0.3.5
+279 verbose linkBins mkdirp@0.3.5
+280 verbose linkMans mkdirp@0.3.5
+281 verbose rebuildBundles mkdirp@0.3.5
+282 info install mkdirp@0.3.5
+283 info postinstall mkdirp@0.3.5
+284 verbose about to build /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm
+285 info build /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm
+286 verbose linkStuff [ false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   '/home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules' ]
+287 info linkStuff nvm@0.0.1
+288 verbose linkBins nvm@0.0.1
+289 verbose link bins [ { nvm: './bin/nvm' },
+289 verbose link bins   '/home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/.bin',
+289 verbose link bins   false ]
+290 verbose linkMans nvm@0.0.1
+291 verbose rebuildBundles nvm@0.0.1
+292 verbose rebuildBundles [ 'mkdirp' ]
+293 info /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/nvm unbuild
+294 info preuninstall nvm@0.0.1
+295 info uninstall nvm@0.0.1
+296 verbose true,/home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules,/home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules unbuild nvm@0.0.1
+297 verbose /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter/node_modules/.bin,[object Object] binRoot
+298 info postuninstall nvm@0.0.1
+299 error Error: EROFS, symlink '../nvm/bin/nvm'
+300 error If you need help, you may report this log at:
+300 error     <http://github.com/isaacs/npm/issues>
+300 error or email it to:
+300 error     <npm-@googlegroups.com>
+301 error System Linux 3.4.6-2.10-desktop
+302 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "nvm"
+303 error cwd /home/kedyr/shares/K/resources/startup Engineering/Homework/bitststarter
+304 error node -v v0.10.13
+305 error npm -v 1.3.2
+306 error path ../nvm/bin/nvm
+307 error code EROFS
+308 error errno 56
+309 verbose exit [ 56, true ]
